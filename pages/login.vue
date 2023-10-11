@@ -1,11 +1,11 @@
 <template>
     <div>
-        <section class="lg:tw-pb-10 lg:tw-px-3 tw-p-4 tw-flex-col tw-gap-4 tw-mt-8">
+        <section class="lg:tw-pb-2 lg:tw-px-3 tw-p-4 tw-flex-col tw-gap-4 tw-mt-8">
             <div class="tw-w-full">
                 <div class="tw-flex tw-flex-col tw-mb-6 tw-px-2 md:tw-px-6 tw-w-full">
                     <div class="xl:tw-px-20 tw-flex tw-justify-center tw-w-full tw-mb-20">
                         <div
-                            class="tw-grid lg:tw-grid-cols-2 tw-gap-4 lg:tw-gap-0 tw-w-full tw-h-full tw-rounded-t-xl tw-shadow-2xl tw-shadow-gray-800">
+                            class=" lg:tw-mt-12 tw-grid lg:tw-grid-cols-2 tw-gap-4 lg:tw-gap-0 tw-w-full tw-h-full tw-rounded-t-xl tw-shadow-2xl tw-shadow-gray-800">
                             <div
                                 class=" tw-h-full tw-bg-white tw-block tw-cursor-pointer tw-rounded-xl tw-w-full tw-shadow-2xl tw-shadow-indigo-100">
                                 <img alt="Home"
@@ -70,7 +70,7 @@ export default {
     components: { Password },
     data() {
         return {
-            title: 'Nous userer Page',
+            title: 'Login Page',
             user: {
                 email: '',
                 password: '',

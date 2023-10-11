@@ -140,7 +140,7 @@ export default {
   components: { Password },
   data() {
     return {
-      title: 'Nous userer Page',
+      title: 'User Registration Page',
       user: {
         username: "",
         email: "",
